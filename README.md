@@ -1,7 +1,7 @@
 # HCAHPS Patients Satisfaction Scores 2025
 
 ## Project Background
-This project analyzes hospital quality and patient satisfaction data using the HCAHPS dataset. The goal is to derive insights into hospital performance and patient experience trends, using SQL for data processing and Tableau for interactive visualization.
+This project analyzes hospital quality and patient satisfaction data using the HCAHPS dataset. The goal is to derive insights into hospital performance and patient experience trends, using Python for data exploration, SQL for data processing and Tableau for interactive visualization.
 
 ## Tableau Dashboard
 You can interact with the Tableau dashboard below:
@@ -11,6 +11,9 @@ You can interact with the Tableau dashboard below:
 ## Data Sources
 - [Hospital Beds Data](https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-hospital-non-hospital-facilities/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A80%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3A%22PRVDR_NUM%22%2C%22sortOrder%22%3A%22ASC%22%7D%2C%22columns%22%3A%5B%22FAC_NAME%22%2C%22PRVDR_NUM%22%2C%22CRTFD_BED_CNT%22%5D%7D) or [here](https://drive.google.com/file/d/1mtNlN6GnwQgcibPWWA8-3QByrYC8Blqi/view?usp=sharing)
 - [HCAHPS Data](https://data.cms.gov/provider-data/dataset/dgck-syfz#data-table) or [here](https://drive.google.com/file/d/1-Buf1_pHKKfW7UkFZbgPuxwn7OglnO6r/view?usp=sharing)
+
+## Python code
+- [Python code](https://github.com/THoangPhuc03/Patient-Satisfaction-Scores/blob/main/HCAHPS_Explore.ipynb)
 
 ## SQL Query
 - [SQL Query](https://github.com/THoangPhuc03/Patient-Satisfaction-Scores/blob/main/HCAHPS.sql)
