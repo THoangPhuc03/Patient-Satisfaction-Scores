@@ -3,6 +3,18 @@
 ## Project Background
 This project analyzes hospital quality and patient satisfaction data using the HCAHPS dataset. The goal is to derive insights into hospital performance and patient experience trends, using SQL for data processing and Tableau for interactive visualization.
 
+## Tableau Dashboard
+You can interact with the Tableau dashboard below:
+
+[Tableau Dashboard](https://public.tableau.com/shared/H7W6X8JNT?:display_count=n&:origin=viz_share_link)
+
+## Data Sources
+- [Hospital Beds Data](https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-hospital-non-hospital-facilities/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A80%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3A%22PRVDR_NUM%22%2C%22sortOrder%22%3A%22ASC%22%7D%2C%22columns%22%3A%5B%22FAC_NAME%22%2C%22PRVDR_NUM%22%2C%22CRTFD_BED_CNT%22%5D%7D)
+- [HCAHPS Data](https://data.cms.gov/provider-data/dataset/dgck-syfz#data-table)
+
+## SQL Query
+- [SQL Query](https://github.com/THoangPhuc03/Patient-Satisfaction-Scores/blob/main/HCAHPS.sql)
+
 ### Key Areas of Analysis:
 - **Patient Satisfaction Scores**
 - **Hospital Bed Availability**
@@ -47,39 +59,6 @@ Based on the insights, we recommend:
 - Implementing targeted patient engagement strategies in large hospitals.
 - Analyzing geographic factors influencing satisfaction trends.
 - Encouraging hospitals to improve survey participation.
-
-## Tableau Dashboard
-You can interact with the Tableau dashboard below:
-
-<div class='tableauPlaceholder' id='viz1742715409973' style='position: relative'>
-    <noscript>
-        <a href='#'><img alt='HCAHPS Dashboard ' src='https://public.tableau.com/static/images/GP/GPBYWB7NR/1_rss.png' style='border: none' /></a>
-    </noscript>
-    <object class='tableauViz' style='display:none;'>
-        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-        <param name='embed_code_version' value='3' />
-        <param name='path' value='shared/GPBYWB7NR' />
-        <param name='toolbar' value='yes' />
-        <param name='static_image' value='https://public.tableau.com/static/images/GP/GPBYWB7NR/1.png' />
-        <param name='animate_transition' value='yes' />
-        <param name='display_static_image' value='yes' />
-        <param name='display_spinner' value='yes' />
-        <param name='display_overlay' value='yes' />
-        <param name='display_count' value='yes' />
-        <param name='language' value='en-US' />
-        <param name='filter' value='publish=yes' />
-    </object>
-</div>
-<script type='text/javascript'>
-    var divElement = document.getElementById('viz1742715409973');
-    var vizElement = divElement.getElementsByTagName('object')[0];
-    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1366px';vizElement.style.height='795px'; }
-    else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1366px';vizElement.style.height='795px'; }
-    else { vizElement.style.width='100%';vizElement.style.height='1277px'; }
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
 
 ## Assumptions & Caveats
 - Missing response rates were treated as zero.
